@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server . -p 3000",
-    "test:a11y": "pa11y http://localhost:3000"
+    "test:a11y": "pa11y http://localhost:3000",
+    "test:a11y:ci": "pa11y --config .github/pa11y-ci.json http://localhost:3000"
   },
   "repository": {
     "type": "git",
